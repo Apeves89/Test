@@ -14,7 +14,7 @@ const App = () => {
   }
   return(
     <div className='container'>
-      <h1>Welcome to Crafting Stash</h1>
+      <h1>Welcome to Crafting Stashs</h1>
       <button onClick={getYarn}>Show Yarn Stash</button>
       <Yarn yarn={yarn}/>
     </div>
